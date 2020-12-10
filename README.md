@@ -1,0 +1,2 @@
+# blind-compass
+Blind Compass is an iPhone app that allows blind people to hear their heading, thus allowing to navigate more easily. Blind Compass represents current heading as audible signal, and it also announces when heading crosses direct lines of North, East, South or West. Blind Compass also offers to lock a certain direction, and in this mode it will count distance travelled in that direction.
