@@ -1,0 +1,63 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme BlindCompass3 build
+
+Resolve Package Graph
+
+Resolved source packages:
+  AudioKit: https://github.com/AudioKit/AudioKit @ v5-main
+
+
+note: Using new build system
+note: Building targets in parallel
+note: Planning build
+note: Constructing build description
+CreateBuildDirectory /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex (in target 'CAudioKit' from project 'AudioKit')
+    cd /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/SourcePackages/checkouts/AudioKit
+    builtin-create-build-directory /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products (in target 'CAudioKit' from project 'AudioKit')
+    cd /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/SourcePackages/checkouts/AudioKit
+    builtin-create-build-directory /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products
+
+ProcessProductPackaging "" /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/BlindCompass3.app.xcent (in target 'BlindCompass3' from project 'BlindCompass3')
+    cd /Users/tony/blind-compass
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "33H2289R7M.com.mltony.BlindCompass3";
+    "com.apple.developer.team-identifier" = 33H2289R7M;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "33H2289R7M.com.mltony.BlindCompass3"
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/BlindCompass3.app.xcent
+
+CompileAssetCatalog /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app /Users/tony/blind-compass/BlindCompass3/Preview\ Content/Preview\ Assets.xcassets /Users/tony/blind-compass/BlindCompass3/Assets.xcassets (in target 'BlindCompass3' from project 'BlindCompass3')
+    cd /Users/tony/blind-compass
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/assetcatalog_dependencies --output-partial-info-plist /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 14.2 --platform iphoneos --compile /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app /Users/tony/blind-compass/BlindCompass3/Preview\ Content/Preview\ Assets.xcassets /Users/tony/blind-compass/BlindCompass3/Assets.xcassets
+/* com.apple.actool.compilation-results */
+/Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/assetcatalog_generated_info.plist
+
+
+ProcessInfoPlistFile /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app/Info.plist /Users/tony/blind-compass/BlindCompass3/Info.plist (in target 'BlindCompass3' from project 'BlindCompass3')
+    cd /Users/tony/blind-compass
+    builtin-infoPlistUtility /Users/tony/blind-compass/BlindCompass3/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/Base.lproj/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app/Info.plist
+
+CodeSign /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app (in target 'BlindCompass3' from project 'BlindCompass3')
+    cd /Users/tony/blind-compass
+    export CODESIGN_ALLOCATE\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    
+Signing Identity:     "Apple Development: anton.malykh@gmail.com (GDTAAL45AJ)"
+Provisioning Profile: "iOS Team Provisioning Profile: com.mltony.BlindCompass3"
+                      (6569e865-01ad-4f44-8483-55e3bd0b86eb)
+
+    /usr/bin/codesign --force --sign DD3D34B830E180CD466CAF5404CFC83ED942E99C --entitlements /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Intermediates.noindex/BlindCompass3.build/Debug-iphoneos/BlindCompass3.build/BlindCompass3.app.xcent --timestamp\=none /Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app
+/Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app: replacing existing signature
+/Users/tony/Library/Developer/Xcode/DerivedData/BlindCompass3-hbrrnwpqiutebicsqdnmwzbnhexb/Build/Products/Debug-iphoneos/BlindCompass3.app: errSecInternalComponent
+Command CodeSign failed with a nonzero exit code
+
